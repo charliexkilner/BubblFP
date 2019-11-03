@@ -1,0 +1,88 @@
+span:before{
+    content: 'more';
+    animation: animate infinite 5s;
+}
+@keyframes animate{
+    0%{
+        content: 'together';
+    }
+    20%{
+        content: 'ourselves';
+    }
+    40%{
+        content: 'them';
+    }
+    60%{
+        content: 'yourself';
+    }
+    80%{
+        content: 'as one';
+    }
+    100%{
+        content: 'more';
+    }
+}
+.statement{
+    position: absolute;
+    width: auto;
+    height: 100px;
+    top: 40%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -25px; 
+}
+body{
+    background: #17181c !important;
+}
+p{
+    font-family: helvetica neue,Helvetica,Arial,sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+mark{
+    background-color: yellowgreen !important;
+}
+form{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+label{
+    color: white !important;
+    opacity: 40%;
+}
+header{
+    text-align: center;
+    padding-top: 10px;
+    font-family: helvetica neue,Helvetica,Arial,sans-serif;
+    color: yellowgreen !important;
+    opacity: 80%;
+    font-weight: 200;
+    font-size: 20px;
+}
+a{
+    color: grey !important;
+    font-family: helvetica neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+}
+a:hover{
+    text-decoration: none;
+
+}
+button:hover{
+    text-decoration: none;
+}
+button{
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+p{
+    font-family: helvetica neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+}
